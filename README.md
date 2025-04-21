@@ -44,11 +44,24 @@ Professional Outputs:
 🛠️ Usage
 **Run the research system:
  python main.py
-Example interaction:
- Enter topic (or 'quit'): Explain quantum computing
- Researching...
- Completed in 8.5s
- Final Answer:
- ==================================================
- [Professional research summary with sources]
- ==================================================**
+ 
+🔍 Enter topic (or 'quit'): Explain quantum computing
+
+🧠 Researching...
+✅ Completed in 8.5s
+
+📝 Final Answer:
+==================================================
+[Professional research summary with sources]
+==================================================
+
+🔧 Technologies Used
+LangChain: Agent framework
+
+LangGraph: Workflow orchestration
+
+Tavily: Web research API
+
+Google Gemini: LLM for summarization
+
+Python 3.9+: Core programming language
